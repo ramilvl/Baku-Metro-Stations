@@ -1,0 +1,78 @@
+body{
+    width: 100%;
+    background-color: black;
+}
+
+header{
+    height: 110px;
+    background-color: green;
+}
+
+.header-sec{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 80px;
+}
+
+
+header img{
+    width: 200px;
+    border-radius: 8px;
+}
+
+
+header h1{
+    text-align: center;
+    font-size: 22px;
+}
+
+
+
+
+.header-sec span{
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.header-sec span:hover{
+    width: 230px;
+    height: 60px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3498db; /* Cool blue color */
+    color: #fff; /* White text color */
+    font-size: 18px; /* Slightly larger font size */
+    font-weight: bold; /* Bold text */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Subtle box shadow */
+    transform: scale(1.1); /* Slight scale-up effect */
+    transition: transform 0.5s, background-color 0.5s, font-size 0.5s;
+}
+
+.img-place img{
+    width: 400px;
+    height: 400px;
+}
+
+.text-row{
+    padding: 40px 50px;
+}
+
+.img-place{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+}
+
+p{
+    font-size: 18px;
+    line-height: 0.8cm;
+    margin-top: 60px;
+}

@@ -1,0 +1,19 @@
+.icon{
+    background-position: center;
+    background-size: contain;
+    background-repeat: none;
+    width: 18px;
+    height: 18px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-lg{
+    width: 24px;
+    height: 24px;
+}
+
+.icon-metro{
+    background-image: url('../img/metro-icon.png');
+}

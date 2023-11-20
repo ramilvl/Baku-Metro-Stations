@@ -1,0 +1,56 @@
+.sekil-1{
+    width: 400px;
+}
+
+
+.sekil-son{
+    width: 900px;
+}
+
+body{
+    background-image: url('../img/n-1.jpg');
+}
+
+
+header{
+    padding: 13px 14px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+header img{
+    width: 210px;
+    border-radius: 7px;
+}
+
+.header-sec{
+    margin-left: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.header-sec a span{
+    font-size: 18px;
+    font-family:monospace;
+    font-weight: 550;
+}
+
+.header-sec span:hover{
+    padding: 10px;
+    height: 60px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3498db;
+    color: #fff; 
+    font-size: 18px; 
+    font-weight: bold; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Subtle box shadow */
+    transform: scale(1.1); /* Slight scale-up effect */
+    transition: transform 0.5s, background-color 0.5s, font-size 0.5s;
+}

@@ -1,0 +1,114 @@
+body{
+    background-image: url('../img/n-1.jpg');
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    padding: 11px;
+}
+
+header img{
+    width: 210px;
+    border-radius: 9999px;
+}
+
+
+.header-sec span{
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.header-sec span:hover{
+    width: 230px;
+    height: 60px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3498db; /* Cool blue color */
+    color: #fff; /* White text color */
+    font-size: 18px; /* Slightly larger font size */
+    font-weight: bold; /* Bold text */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Subtle box shadow */
+    transform: scale(1.1); /* Slight scale-up effect */
+    transition: transform 0.5s, background-color 0.5s, font-size 0.5s;
+}
+
+
+.header-sec{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 80px;
+}
+
+
+
+
+header h1{
+    text-align: center;
+    font-size: 22px;
+}
+
+
+main{
+    height: 100vh;
+    padding: 50px 80px;
+}
+
+h1{
+    font-size: 40px;
+}
+
+.p-1 img{
+    width: 600px;
+}
+
+.p-1 h1{
+    animation: colorChange 3s infinite;
+
+}
+
+@keyframes colorChange {
+    0% { color: #ff0000; }
+    50% { color: #00ff00; }
+    100% { color: #0000ff; }
+}
+
+.p-1 span{
+    line-height: 2;
+}
+
+.p-1 p{
+    line-height: 2;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+}
+
+.img-format{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.p-2 p{
+    line-height: 2;
+}
+
+.p-3 p{
+    line-height: 2;
+}
+
+.p-4 p{
+    line-height: 2;
+}
+
+.p-5 p{
+    line-height: 2;
+}
